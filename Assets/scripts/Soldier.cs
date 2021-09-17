@@ -7,8 +7,9 @@ public class Soldier : MonoBehaviour
 {
     public Rigidbody soldier;
     public static int Puan = 0;
-    
-    
+    //public Text TowerHealth;
+    public static int TowerHealth = 20;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,11 +26,15 @@ public class Soldier : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Enemy"))
         {
-            Destroy(this.gameObject,0.2f);
+            Destroy(this.gameObject,0.1f);
             //EnemySoldierS.SoldierNumber--;
+        }
+        if (collision.gameObject.tag.Equals("Tower"))
+        {
+            Destroy(this.gameObject,0.1f);
+            TowerHealth--;
+            Debug.Log(TowerHealth + "-1");
             
-            
-
         }
     }
     

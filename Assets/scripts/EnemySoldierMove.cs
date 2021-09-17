@@ -34,12 +34,12 @@ public class EnemySoldierMove : MonoBehaviour
             
             
             
-            Destroy(this.gameObject,0.2f); //EnemySoldier is Destroyed.
+            Destroy(this.gameObject,0.1f); //EnemySoldier is Destroyed.
             EnemySoldierS.SoldierNumber--;
-            Debug.Log(EnemySoldierS.SoldierNumber + "YOK EDÝLDÝ");
+            //Debug.Log(EnemySoldierS.SoldierNumber + "YOK EDÝLDÝ");
             Soldier.Puan += 5;
 
-            Debug.Log(Soldier.Puan + "Puan Kazandýn");
+            //Debug.Log(Soldier.Puan + "Puan Kazandýn");
             // The destroy effect will creat when the enemy Soldiers Die. "DONT FORGET!!!!"
 
         }
