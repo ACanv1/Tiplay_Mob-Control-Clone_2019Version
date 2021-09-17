@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6411805489046508054
+--- !u!1 &7412858350646871204
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6030495489599998124}
-  - component: {fileID: 7214560062956308233}
-  - component: {fileID: 4898706308098421699}
-  - component: {fileID: 4643749445321968628}
+  - component: {fileID: 7895957802880343582}
+  - component: {fileID: 6502010787792884155}
+  - component: {fileID: 9070037534749746545}
+  - component: {fileID: 7646736910876216616}
+  - component: {fileID: 7646736910876216623}
   m_Layer: 0
-  m_Name: Engel1-Ucgen
-  m_TagString: Untagged
+  m_Name: DusmanKule
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6030495489599998124
+--- !u!4 &7895957802880343582
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6411805489046508054}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 3.09, y: 0, z: 5.04}
-  m_LocalScale: {x: 70, y: 70, z: 73.37553}
+  m_GameObject: {fileID: 7412858350646871204}
+  m_LocalRotation: {x: 0, y: 0.7072302, z: 0.7069834, w: 0}
+  m_LocalPosition: {x: -0.29, y: 0.71, z: 23.59}
+  m_LocalScale: {x: 58, y: 58, z: 58}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7214560062956308233
+  m_LocalEulerAnglesHint: {x: -89.98, y: 180, z: 0}
+--- !u!33 &6502010787792884155
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6411805489046508054}
-  m_Mesh: {fileID: 8314571269056883277, guid: 4fedc394b73c41e44b6bb378145c8188, type: 3}
---- !u!23 &4898706308098421699
+  m_GameObject: {fileID: 7412858350646871204}
+  m_Mesh: {fileID: 2534964839176971238, guid: 2b6b9020294e0d34189ad54ce3b53f62, type: 3}
+--- !u!23 &9070037534749746545
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6411805489046508054}
+  m_GameObject: {fileID: 7412858350646871204}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: 4fedc394b73c41e44b6bb378145c8188, type: 3}
+  - {fileID: -6478536213147159724, guid: 2b6b9020294e0d34189ad54ce3b53f62, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,17 +81,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4643749445321968628
-MeshCollider:
+--- !u!65 &7646736910876216616
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6411805489046508054}
+  m_GameObject: {fileID: 7412858350646871204}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8314571269056883277, guid: 4fedc394b73c41e44b6bb378145c8188, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.02000001, z: 0.041726198}
+  m_Center: {x: 0, y: -0.0000000051381357, z: 0.020804854}
+--- !u!114 &7646736910876216623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7412858350646871204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 542ded5ca898ba94b863f41205c7faea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemySol: {fileID: 8786485846266663656, guid: 9a9168b966f8ee84e9475c2aa59ef922,
+    type: 3}
+  EnemyRigi: {fileID: 6239725487149585340, guid: 9a9168b966f8ee84e9475c2aa59ef922,
+    type: 3}

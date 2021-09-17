@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.AI;
 
 public class Soldier : MonoBehaviour
 {
+    public GameObject Tower;
     public Rigidbody soldier;
     public static int Puan = 0;
     //public Text TowerHealth;
@@ -13,14 +15,14 @@ public class Soldier : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GetComponent<NavMeshAgent>().destination = Tower.transform.position;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        soldier.velocity = Vector3.forward * Time.deltaTime * 300f;
+        //soldier.velocity = Vector3.forward * Time.deltaTime * 300f;
     }
     private void OnCollisionEnter(Collision collision)
     {

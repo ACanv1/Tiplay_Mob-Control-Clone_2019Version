@@ -39,7 +39,7 @@ public class Soldier6X : MonoBehaviour
         for (int i = 0; i < 5; i++)
         {
           asd += 0.2f;
-            GameObject SoldierClones = Instantiate(SoldierOriginals, new Vector3(2.5f+asd,0.57f, 0f), SoldierOriginals.transform.rotation);
+            GameObject SoldierClones = Instantiate(SoldierOriginals, new Vector3(2.5f+asd,0.57f, 0.4f), SoldierOriginals.transform.rotation);
         }
 
     }
