@@ -7,6 +7,10 @@ TagManager:
   - Players
   - Enemy
   - Tower
+  - destroyer
+  - Destroyer
+  - Tower2
+  - tower3
   layers:
   - Default
   - TransparentFX

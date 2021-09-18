@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7412858350646871204
+--- !u!1 &8755560072265280989
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7895957802880343582}
-  - component: {fileID: 6502010787792884155}
-  - component: {fileID: 9070037534749746545}
-  - component: {fileID: 7646736910876216616}
-  - component: {fileID: 7646736910876216623}
-  - component: {fileID: 6352687540754858043}
+  - component: {fileID: 8271476251962079079}
+  - component: {fileID: 5000671546780973250}
+  - component: {fileID: 7097957851114015752}
+  - component: {fileID: 8448918579239871569}
+  - component: {fileID: 8448918579239871574}
+  - component: {fileID: 8605436001207641464}
   m_Layer: 0
-  m_Name: DusmanKule
+  m_Name: DusmanKule (1)
   m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7895957802880343582
+--- !u!4 &8271476251962079079
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7412858350646871204}
-  m_LocalRotation: {x: 0, y: 0.7072302, z: 0.7069834, w: 0}
-  m_LocalPosition: {x: -0.29, y: 0.71, z: 23.59}
-  m_LocalScale: {x: 58, y: 58, z: 58}
+  m_GameObject: {fileID: 8755560072265280989}
+  m_LocalRotation: {x: -0.000000029802322, y: 0.7072302, z: 0.7069834, w: 0.000000025262125}
+  m_LocalPosition: {x: -0.77, y: 0.7059436, z: 123}
+  m_LocalScale: {x: 58.00003, y: 58.00001, z: 58.000027}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -89.98, y: 180, z: 0}
---- !u!33 &6502010787792884155
+--- !u!33 &5000671546780973250
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7412858350646871204}
+  m_GameObject: {fileID: 8755560072265280989}
   m_Mesh: {fileID: 2534964839176971238, guid: 2b6b9020294e0d34189ad54ce3b53f62, type: 3}
---- !u!23 &9070037534749746545
+--- !u!23 &7097957851114015752
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7412858350646871204}
+  m_GameObject: {fileID: 8755560072265280989}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -82,26 +82,26 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &7646736910876216616
+--- !u!65 &8448918579239871569
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7412858350646871204}
+  m_GameObject: {fileID: 8755560072265280989}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.020000007, y: 0.02000001, z: 0.041726198}
   m_Center: {x: 0, y: -0.0000000051381357, z: 0.020804854}
---- !u!114 &7646736910876216623
+--- !u!114 &8448918579239871574
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7412858350646871204}
+  m_GameObject: {fileID: 8755560072265280989}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 542ded5ca898ba94b863f41205c7faea, type: 3}
@@ -111,14 +111,14 @@ MonoBehaviour:
     type: 3}
   EnemyRigi: {fileID: 6239725487149585340, guid: 9a9168b966f8ee84e9475c2aa59ef922,
     type: 3}
---- !u!95 &6352687540754858043
+--- !u!95 &8605436001207641464
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7412858350646871204}
+  m_GameObject: {fileID: 8755560072265280989}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 9bc56630b6886dd4a90e3bc8a1d127b0, type: 2}

@@ -9,8 +9,6 @@ public class ChaContr : MonoBehaviour
     public bool stopSpawning = true;
     public float SpawnTime;
     public float SpawnDelay;
-
-    
     // Start is called before the first frame update
     void Start()
     {

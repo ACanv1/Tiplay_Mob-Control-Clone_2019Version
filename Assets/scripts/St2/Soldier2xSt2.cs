@@ -1,11 +1,11 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Soldier6X : MonoBehaviour
+public class Soldier2xSt2 : MonoBehaviour
 {
-    public GameObject SoldierOriginals;
-    
+    public GameObject SoldierOriginal;
+
 
     // Start is called before the first frame update
     void Start()
@@ -16,32 +16,29 @@ public class Soldier6X : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)
     {
         //Debug.Log(other.gameObject.name);
         string Carp = other.gameObject.name;
         if (Carp.Equals("Soldier(Clone)"))
         {
-            CreateSoldier(0); // Called the Soldier Creater
-            
-            
+            CreateSoldier(0); // Called the void
+
         }
 
 
     }
-
     void CreateSoldier(int Numb) // Soldier Creater
     {
         float asd = 0;
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 2; i++)
         {
-          asd += 0.2f;
-            GameObject SoldierClones = Instantiate(SoldierOriginals, new Vector3(2.5f*asd,0.57f, 0.4f), SoldierOriginals.transform.rotation);
+            asd += 0.2f;
+            GameObject SoldierClone = Instantiate(SoldierOriginal, new Vector3(-2.5f * asd, 0.40f, 42f), SoldierOriginal.transform.rotation);
         }
 
     }
-    
 }

@@ -6,7 +6,7 @@ public class EnemySoldierS : MonoBehaviour
 {
     
     public GameObject EnemySol;
-    public Rigidbody EnemyRigi;
+    
     public static int SoldierNumber;
     private float Timer;
     
@@ -15,16 +15,21 @@ public class EnemySoldierS : MonoBehaviour
     void Start()
     {
         SoldierNumber = 0;
+        
+        
     }
+   
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        
         Timer += Time.deltaTime;
         //Debug.Log(Timer);
         if (Timer >2 && Timer < 2.1f) // 5 soldiers created 
         {
-            //Instantiate(EnemySol, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 23f), EnemySol.transform.rotation);
+            Instantiate(EnemySol, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 22f), EnemySol.transform.rotation);
+            
             SoldierNumber++;
             //Debug.Log(SoldierNumber + " olusturuldu");
 

@@ -1282,8 +1282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd5115b0394ebfd448040f2dbcd45c79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tower: {fileID: 7412858350646871204, guid: 1e5fb169f33e873478c1ef1bf2ff29fd, type: 3}
-  soldier: {fileID: -8378162671328339505}
+  Tower: {fileID: 8755560072265280989, guid: bc143c453ffd1694eb4536dc55881730, type: 3}
 --- !u!54 &-8378162671328339505
 Rigidbody:
   m_ObjectHideFlags: 0
