@@ -11,10 +11,12 @@ public class GameManage : MonoBehaviour
     public Text CoinText;
     public Text TowerHealthText;
     public Text TowerHealtTextSt2;
+    public Text TowerHealthTextSt3;
     public GameObject Stage1;
     public GameObject Stage2;
     public GameObject Stage3;
     public GameObject Optimize;
+    public GameObject Optimize2;
     public GameObject TowerMovement;
     
 
@@ -22,8 +24,9 @@ public class GameManage : MonoBehaviour
     void Start()
     {
         Optimize.SetActive(false);
-        //Stage2.SetActive(false);
-        //Stage3.SetActive(false);
+        Stage2.SetActive(false);
+        Optimize2.SetActive(false);
+        Stage3.SetActive(false);
     }
 
     // Update is called once per frame
@@ -35,6 +38,7 @@ public class GameManage : MonoBehaviour
         CoinText.text = "Coin " + Coin;
          TowerHealthText.text = Soldier.TowerHealth + "";
         TowerHealtTextSt2.text = Soldier.TowerHealthSt2 + "";
+        TowerHealthTextSt3.text = Soldier.towerHealthSt3 + "";
         if (Input.touchCount > 0)
         {
             Touch Finger = Input.GetTouch(0);
@@ -57,7 +61,17 @@ public class GameManage : MonoBehaviour
         {
             Destroy(Stage2, 1f);
             Stage3.SetActive(true);
+            Optimize2.SetActive(true);
         }
+        if (Soldier.towerHealthSt3<=0)
+        {
+            Destroy(Stage3, 1f);
+            
+        }
+        
+        
+
+        
 
     }
 }

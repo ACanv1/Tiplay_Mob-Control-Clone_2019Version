@@ -13,6 +13,7 @@ public class Soldier : MonoBehaviour
     public static int TowerHealth = 20;
 
     public static int TowerHealthSt2 = 25;
+    public static int towerHealthSt3 = 30;
     
 
     // Start is called before the first frame update
@@ -50,6 +51,15 @@ public class Soldier : MonoBehaviour
         if (collision.gameObject.tag.Equals("destroyer"))
         {
             Destroy(gameObject);
+        }
+        if (collision.gameObject.tag.Equals("tower3"))
+        {
+            Destroy(this.gameObject, 0.1f);
+            towerHealthSt3--;
+        }
+        if (this.gameObject.tag.Equals("Destroyer"))
+        {
+            Destroy(this.gameObject);
         }
     }
    

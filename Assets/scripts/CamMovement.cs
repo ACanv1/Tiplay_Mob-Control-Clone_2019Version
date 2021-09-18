@@ -18,5 +18,9 @@ public class CamMovement : MonoBehaviour
         {
             Anim.SetBool("Stage1", true);
         }
+        if (Soldier.TowerHealthSt2<=0)
+        {
+            Anim.SetBool("Stage1", false);
+        }
     }
 }

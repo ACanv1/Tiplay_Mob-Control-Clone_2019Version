@@ -36,31 +36,31 @@ public class Stage2Tower : MonoBehaviour
         }
         if (TimerSt2 > 5 && TimerSt2 < 5.2f) // 10 soldiers created because I increase the second value number one.
         {
-            //Instantiate(EnemySolst2, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 71f), EnemySolst2.transform.rotation);
+            Instantiate(EnemySolst2, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 71f), EnemySolst2.transform.rotation);
             SoldierNumberS2++;
             //Debug.Log(SoldierNumber + " olusturuldu");
         }
         if (TimerSt2 > 10 && TimerSt2 < 10.3) // 15 soldiers created because I increase the second value number two.
         {
-            //Instantiate(EnemySolst2, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 71f), EnemySolst2.transform.rotation);
+            Instantiate(EnemySolst2, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 71f), EnemySolst2.transform.rotation);
             SoldierNumberS2++;
             //Debug.Log(SoldierNumber + " olusturuldu");
         }
         if (TimerSt2 > 15 && TimerSt2 < 15.2) // 10 soldiers created because I increase the second value number one.
         {
-            //Instantiate(EnemySolst2, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 71f), EnemySolst2.transform.rotation);
+            Instantiate(EnemySolst2, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 71f), EnemySolst2.transform.rotation);
             SoldierNumberS2++;
             //Debug.Log(SoldierNumber + " olusturuldu");
         }
         if (TimerSt2 > 20 && TimerSt2 < 20.2) // 10 soldiers created because I increase the second value number one.
         {
-            //Instantiate(EnemySolst2, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 71f), EnemySolst2.transform.rotation);
+            Instantiate(EnemySolst2, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 71f), EnemySolst2.transform.rotation);
             SoldierNumberS2++;
             //Debug.Log(SoldierNumber + " olusturuldu");
         }
         if (TimerSt2 > 25 && TimerSt2 < 25.4) // 20 soldiers created because I increase the second value number one.
         {
-            //Instantiate(EnemySolst2, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 71f), EnemySolst2.transform.rotation);
+            Instantiate(EnemySolst2, new Vector3(Random.Range(-2.65f, 2.65f), 0.6f, 71f), EnemySolst2.transform.rotation);
             SoldierNumberS2++;
             //Debug.Log(SoldierNumber + " olusturuldu");
         }
